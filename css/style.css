@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&family=Sofia+Sans+Semi+Condensed:ital,wght@1,300&family=Source+Code+Pro&family=Ubuntu:ital,wght@0,400;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.slidebar {
+    position: absolute;
+    background-color: rgb(197, 194, 194);
+    /* width: 319px; */
+    transition: transform 0.3s ease-in;
+    height: 112vh;
+}
+
+.slidebar nav {
+    padding: 33px;
+}
+
+.slidebar nav ul li {
+    list-style: none;
+    font-size: 20px;
+    padding: 22px 0 17px;
+}
+.slidebar nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.main {
+    /* background-color: red; */
+    width: 90vw;
+}
+
+.infoContainer {
+    /* background-color: gray; */
+    height: 60vh;
+    width: 80vw;
+    margin: 85px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.hello {
+    font-size: 29px;
+    font-weight: bold;
+}
+
+.name {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.about {
+    font-size: 18px;
+    font-weight: bold;
+}
+.info{
+    font-size: 17px;
+    margin-top: 23px;
+    
+}
+
+.devPic img {
+    height: 60vh;
+}
+.cross{
+    margin-left: 138px;
+}
+.slidebarGo {
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+.hamburger {
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 5px;
+}
+.ham{
+    margin-top: 1px;
+}

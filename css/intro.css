@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&family=Sofia+Sans+Semi+Condensed:ital,wght@1,300&family=Source+Code+Pro&family=Ubuntu:ital,wght@0,400;1,300&display=swap');
+
+.content{
+    margin: 77px;
+}
+.main {
+    font-family: 'Source Code Pro', monospace;
+
+}
+
+.main h1 {
+    margin: 12px;
+
+}
+
+.main h2 {
+    margin: 12px;
+
+}
+
+.main p {
+
+    margin: 12px;
+}
+
+.skillContainer {
+    padding: 12px;
+}
+
+.skillItem {
+    display: flex;
+    align-items: center;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.skill {
+    width: 240px;
+    height: 13px;
+    background-color: red;
+    border: 2px solid gray;
+}
+.t4{
+    width: 125px;
+background-color: yellowgreen;
+}
+.t6{
+    width: 236px;
+    background-color: blue;
+}
+.project{
+    margin-top: 23px;
+    font-size: 22px;
+}
